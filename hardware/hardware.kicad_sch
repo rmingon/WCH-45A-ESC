@@ -2171,6 +2171,12 @@
 		(uuid "c75661f8-4cd2-4345-aa87-10bd3ce22456")
 	)
 	(junction
+		(at 109.22 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd86a736-1b64-4218-b9c2-f2f4f9dcf227")
+	)
+	(junction
 		(at 196.85 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2276,6 +2282,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 43.18) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a27fbb8-de8d-4b44-98f6-c03608baac7f")
+	)
+	(wire
+		(pts
 			(xy 93.98 88.9) (xy 93.98 93.98)
 		)
 		(stroke
@@ -2303,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "2a639fa3-e6cc-4b99-9df3-4c956ed59f93")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbd3533-87d8-4ff9-aa70-32c9033f0b7e")
 	)
 	(wire
 		(pts
@@ -2463,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "574def9f-6448-4998-bd18-1bb6ae2fd242")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f7a7b5-73ac-4da1-867d-cf600da9afdf")
 	)
 	(wire
 		(pts
@@ -2893,6 +2929,16 @@
 			(type default)
 		)
 		(uuid "fbfbabb3-ca19-4577-bba9-99e1014dc133")
+	)
+	(wire
+		(pts
+			(xy 113.03 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7ed101-e87a-4adb-82ae-d58ae07283ba")
 	)
 	(global_label "VSW"
 		(shape input)
@@ -3402,7 +3448,7 @@
 	)
 	(global_label "SWIO"
 		(shape input)
-		(at 102.87 40.64 0)
+		(at 110.49 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3412,7 +3458,7 @@
 		)
 		(uuid "942587fa-eee1-4982-9e82-2c959534b6d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.4514 40.64 0)
+			(at 118.0714 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,6 +4314,71 @@
 			(project "hardware"
 				(path "/8190213a-0743-4626-9b51-f7fca6052b18"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 113.03 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38a010b9-abfb-47c4-8b45-346549c3d95c")
+		(property "Reference" "SWIO1"
+			(at 119.634 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 116.332 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b7038c-c092-4ee2-b77b-cb2784ea87e9")
+		)
+		(instances
+			(project "hardware"
+				(path "/8190213a-0743-4626-9b51-f7fca6052b18"
+					(reference "SWIO1")
 					(unit 1)
 				)
 			)
@@ -5183,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 20.32 26.67 0)
 			(effects
 				(font
