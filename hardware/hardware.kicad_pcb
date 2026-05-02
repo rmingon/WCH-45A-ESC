@@ -104,7 +104,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6e69e73b-f0c9-4da4-b8bc-867baf4d0e1d")
@@ -6907,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "92ef948a-7bf1-429b-a86c-a1de01f6ed68")
@@ -8323,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "df1c2e88-32fa-41e1-81dc-f762434c425a")

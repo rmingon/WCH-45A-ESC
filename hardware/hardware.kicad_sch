@@ -4531,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 134.62 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 181.61 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7864,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "15"
 			(at 227.33 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
